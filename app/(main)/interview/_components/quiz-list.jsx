@@ -17,7 +17,7 @@ import {
   DialogHeader,
   DialogTitle,
 } from "@/components/ui/dialog";
-import QuizResult from "./quix-result";
+import QuizResult from "./quiz-result";
 
 export default function QuizList({ assessments }) {
   const router = useRouter();

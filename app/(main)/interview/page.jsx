@@ -1,6 +1,6 @@
 import { getAssessments } from "@/actions/interview";
 import StatsCards from "./_components/stats-card";
-import PerformanceChart from "./_components/performace_chart";
+import PerformanceChart from "./_components/performance_chart";
 import QuizList from "./_components/quiz-list";
 
 export default async function InterviewPrepPage() {

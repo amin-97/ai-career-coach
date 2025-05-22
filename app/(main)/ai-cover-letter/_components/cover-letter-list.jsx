@@ -42,7 +42,7 @@ export default function CoverLetterList({ coverLetters }) {
     return (
       <Card>
         <CardHeader>
-          <CardTitle>No Cover Letters Yet</CardTitle>
+          <CardTitle>No Cover Letter Yet</CardTitle>
           <CardDescription>
             Create your first cover letter to get started
           </CardDescription>

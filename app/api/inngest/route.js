@@ -1,10 +1,9 @@
 import { serve } from "inngest/next";
-import { inngest } from "@/lib/inngest/client";
 
-// Create an API that serves zero functions
+import { inngest } from "@/lib/inngest/client";
+import { generateIndustryInsights } from "@/lib/inngest/function";
+
 export const { GET, POST, PUT } = serve({
   client: inngest,
-  functions: [
-    /* Your functions will be added here later!*/
-  ],
+  functions: [generateIndustryInsights],
 });
